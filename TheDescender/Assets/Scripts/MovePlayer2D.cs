@@ -11,16 +11,15 @@ namespace SamBalance
         /// Start is called before the first frame update
         public float moveSpeed = 1;
 
-        void Start()
-        {
+        public Rigidbody2D rb;
 
-
-        }
+        Vector2 movement;
 
         // Update is called once per frame
         void Update()
         {
-            if (Input.GetKey(KeyCode.D)) //right
+            //this extra code is just the way that I used to do it until i realized its not great code lol
+            /*if (Input.GetKey(KeyCode.D)) //right
             {
                 transform.position += Vector3.right * moveSpeed * Time.deltaTime;
 
@@ -43,6 +42,16 @@ namespace SamBalance
                 transform.position += Vector3.up * -moveSpeed * Time.deltaTime;
 
             }
+            */
+
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
+
+        }
+
+        void FixedUpdate()
+        {
+            rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
         }
     }
 }

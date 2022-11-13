@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b7568b0ab0541413c8f260d60659538a
+guid: 8080f992033a94df1a94796963c68974
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: charspritesheet_0
+      name: maincharspritesheet_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 2
         y: 256
-        width: 53
-        height: 58
+        width: 59
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99702c36f9eb448fe9795f3058028c9e
-      internalID: 1263359129
+      spriteID: cb6e005d524b24786b9524c1e973e45d
+      internalID: 575853913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: charspritesheet_1
+      name: maincharspritesheet_1
       rect:
         serializedVersion: 2
-        x: 7
-        y: 192
-        width: 53
-        height: 58
+        x: 2
+        y: 190
+        width: 59
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eaa1b0f010a474ee59f44d34c54e9cb8
-      internalID: -2056551750
+      spriteID: d2d5b1bae2a494ed29112e350f04f6c1
+      internalID: 1611376101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: charspritesheet_2
+      name: maincharspritesheet_2
       rect:
         serializedVersion: 2
-        x: 1
-        y: 128
-        width: 62
-        height: 58
+        x: 2
+        y: 124
+        width: 59
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fbb9a3b8b0fd4280961988c120a333e
-      internalID: 100136820
+      spriteID: f272cd94af78242748b5d3903860585d
+      internalID: 2129442638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: charspritesheet_3
+      name: maincharspritesheet_3
       rect:
         serializedVersion: 2
-        x: 1
-        y: 64
-        width: 62
-        height: 58
+        x: 2
+        y: 62
+        width: 59
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd8b280a5c9fd4809ab84e4b1c9f0a0c
-      internalID: -114520819
+      spriteID: 11d9ce00750f54b4aa213744c3b444ae
+      internalID: -751781580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: charspritesheet_4
+      name: maincharspritesheet_4
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 0
-        width: 62
-        height: 44
+        width: 59
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,8 +202,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 385fad55eea114864b258de1792133ea
-      internalID: -167043558
+      spriteID: 66880ff171e7248f3bf3577dd19f3927
+      internalID: -678840381
       vertices: []
       indices: 
       edges: []
@@ -219,11 +219,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      charspritesheet_3: -114520819
-      charspritesheet_0: 1263359129
-      charspritesheet_2: 100136820
-      charspritesheet_4: -167043558
-      charspritesheet_1: -2056551750
+      maincharspritesheet_1: 1611376101
+      maincharspritesheet_4: -678840381
+      maincharspritesheet_2: 2129442638
+      maincharspritesheet_3: -751781580
+      maincharspritesheet_0: 575853913
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 1

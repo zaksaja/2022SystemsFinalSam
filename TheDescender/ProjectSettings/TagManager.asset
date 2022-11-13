@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Player
   - 
   - 
   - 
@@ -43,4 +43,7 @@ TagManager:
     locked: 0
   - name: PlayerTopLayer
     uniqueID: 338441585
+    locked: 0
+  - name: CollisionLayer
+    uniqueID: 1376971485
     locked: 0

@@ -396,3 +396,120 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017672 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/samanthazak/2022SystemsFinalSam/TheDescender/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/samanthazak/2022SystemsFinalSam/TheDescender/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 158.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.312 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2313ms)
+		BeginReloadAssembly (591ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (1560ms)
+			LoadAssemblies (599ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (402ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (831ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (158ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (331ms)
+				ProcessInitializeOnLoadMethodAttributes (231ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Simple Lit': fallback shader 'Universal Render Pipeline/Particles/Unlit' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/StencilDeferred': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 4.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6014 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 135 unused Assets / (6.0 MB). Loaded Objects now: 6390.
+Memory consumption went from 350.4 MB to 344.3 MB.
+Total: 13.807724 ms (FindLiveObjects: 0.723853 ms CreateObjectMapping: 0.548745 ms MarkObjects: 9.224802 ms  DeleteObjects: 3.308933 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 810.949101 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a021b6fd2aa38d2e912d5c67ce7ec2') in 0.011249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.354793 seconds.
+  path: Assets/URP
+  artifactKey: Guid(64e34624bca9a40bda4ee0ff0f8cfaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP using Guid(64e34624bca9a40bda4ee0ff0f8cfaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a2f9b1199bb5bdbdfc62cc67922379') in 0.001599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.913959 seconds.
+  path: Assets/URP/New Universal Render Pipeline Asset.asset
+  artifactKey: Guid(fa38ca14597294577a14f5bc71783d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP/New Universal Render Pipeline Asset.asset using Guid(fa38ca14597294577a14f5bc71783d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6a36143e7a0d09fd4de0e470c5f487') in 0.236679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 104.891006 seconds.
+  path: Assets/URP/URPenvironment.asset
+  artifactKey: Guid(b32746d6e1dfc4911bbd45e01ed91f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP/URPenvironment.asset using Guid(b32746d6e1dfc4911bbd45e01ed91f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a132d441d0e28ed7d77c1194358cae') in 0.097432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.397908 seconds.
+  path: Assets/URP/Environment.asset
+  artifactKey: Guid(60cb74a348c9346b8a85abf4bfcba5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP/Environment.asset using Guid(60cb74a348c9346b8a85abf4bfcba5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51909cd71a0fd6895313d08a47de58e3') in 0.030144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.350006 seconds.
+  path: Assets/URP/Environment_Renderer.asset
+  artifactKey: Guid(d28da470faec1478b92fe332b8fe55b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP/Environment_Renderer.asset using Guid(d28da470faec1478b92fe332b8fe55b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8cc913c91748a64d3c7cdd81fad51a') in 0.036126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.037495 seconds.
+  path: Assets/URP/2drenderer.asset
+  artifactKey: Guid(c70cdecef0f3f4b83b5113252a75da86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP/2drenderer.asset using Guid(c70cdecef0f3f4b83b5113252a75da86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4786d7647818d563f209679ee4c05a7e') in 0.060705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.030851 seconds.
+  path: Assets/URP/2drenderer.asset
+  artifactKey: Guid(c70cdecef0f3f4b83b5113252a75da86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP/2drenderer.asset using Guid(c70cdecef0f3f4b83b5113252a75da86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0428cbf4003eab2ef8cbe2f563f7f1') in 0.065951 seconds 

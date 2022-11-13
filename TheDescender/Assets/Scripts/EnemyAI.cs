@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+
 
 
 public class EnemyAI : MonoBehaviour
@@ -64,11 +64,7 @@ public class EnemyAI : MonoBehaviour
 
         }
         
-        if (isInAttackRange = 3s)
-        {
-            SceneManager.LoadScene("End");
-        }
-        
+    
     }
 
     private void MoveCharacter(Vector2 direction)

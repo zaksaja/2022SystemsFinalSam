@@ -169,3 +169,21 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 362555.233416 seconds.
+  path: Assets/Assets/TILES/CaveFloor/transparentgroundup.png
+  artifactKey: Guid(a2288164317424a50a10b029912804cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/CaveFloor/transparentgroundup.png using Guid(a2288164317424a50a10b029912804cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0395d4bed61fd54a03381921289bc6ff') in 0.304128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.818788 seconds.
+  path: Assets/Assets/TILES/CaveFloor/transparentgroundright.png
+  artifactKey: Guid(7871b14ecd1c54be7a4b641101bbbde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/CaveFloor/transparentgroundright.png using Guid(7871b14ecd1c54be7a4b641101bbbde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f99b8fb3ed5bddb687f0424cb53dff') in 0.035669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Assets/TILES/CaveFloor/transparentleftground.png
+  artifactKey: Guid(4af0bcd955c0e4e3bb87af45bd237aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/CaveFloor/transparentleftground.png using Guid(4af0bcd955c0e4e3bb87af45bd237aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1132f5f672d58f4f1899be10f5943b') in 0.022309 seconds 

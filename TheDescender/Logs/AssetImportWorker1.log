@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59922
+61154
 Successfully changed project path to: /Users/samanthazak/2022SystemsFinalSam/TheDescender
 /Users/samanthazak/2022SystemsFinalSam/TheDescender
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/samanthazak/2022SystemsFinalSam/The
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 212.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 147.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -70,44 +70,165 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56801
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.003217 seconds.
+Registered in 0.001307 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 133.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 135.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.182 seconds
+- Completed reload, in  0.820 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1183ms)
-		BeginReloadAssembly (178ms)
+	ReloadAssembly (820ms)
+		BeginReloadAssembly (103ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (873ms)
-			LoadAssemblies (180ms)
+		EndReloadAssembly (586ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (136ms)
+			SetupTypeCache (135ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (643ms)
+			SetupLoadedEditorAssemblies (357ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (134ms)
+				RefreshPlugins (135ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (429ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011697 seconds.
+Registered in 0.011935 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/samanthazak/2022SystemsFinalSam/TheDescender/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/samanthazak/2022SystemsFinalSam/TheDescender/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 137.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  2.766 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2767ms)
+		BeginReloadAssembly (543ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (2065ms)
+			LoadAssemblies (1109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (384ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (840ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (137ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (328ms)
+				ProcessInitializeOnLoadMethodAttributes (228ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (462.0 KB). Loaded Objects now: 6494.
+Memory consumption went from 357.5 MB to 357.0 MB.
+Total: 8.990298 ms (FindLiveObjects: 0.540072 ms CreateObjectMapping: 0.584921 ms MarkObjects: 7.506291 ms  DeleteObjects: 0.358047 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 346981.297342 seconds.
+  path: Assets/Assets/TILES/Cave/floorcave_0.asset
+  artifactKey: Guid(ffe3e42ea808e433cb1ff33a9f9d9177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/Cave/floorcave_0.asset using Guid(ffe3e42ea808e433cb1ff33a9f9d9177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbddc7fe2e072f1966e5d83fddb2af2') in 0.212571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2544.028602 seconds.
+  path: Assets/Assets/TILES/Cave/floorcave.asset
+  artifactKey: Guid(77f54cb2666fe48e0ae2408609207192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/Cave/floorcave.asset using Guid(77f54cb2666fe48e0ae2408609207192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1157797830bb27ee2dc03d06f597d4e3') in 0.020233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.615268 seconds.
+  path: Assets/Assets/TILES/Cave/CaveFloor.prefab
+  artifactKey: Guid(9057f4e79b91d4626bccc4b074927bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/Cave/CaveFloor.prefab using Guid(9057f4e79b91d4626bccc4b074927bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb81fd6e9a345cfbf13cfe13cfcd38d') in 0.423007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 139.947153 seconds.
+  path: Assets/Assets/TILES/CaveCollision/cavedetails_1.asset
+  artifactKey: Guid(c706f28ee542d42bfa57893c9c9e1e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/CaveCollision/cavedetails_1.asset using Guid(c706f28ee542d42bfa57893c9c9e1e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f913de2ca26ef376f27aaf2e77cd5ed5') in 0.012151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Assets/TILES/CaveCollision/cavedetails_10.asset
+  artifactKey: Guid(824bf0d8e466d42b5874bdfda2d9f061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/CaveCollision/cavedetails_10.asset using Guid(824bf0d8e466d42b5874bdfda2d9f061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81af5f27226bdf0cdc7fd4684941354b') in 0.013133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Assets/TILES/CaveCollision/cavedetails_8.asset
+  artifactKey: Guid(e6e7079798fa54c0486aa05bec0152b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/CaveCollision/cavedetails_8.asset using Guid(e6e7079798fa54c0486aa05bec0152b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0354f3faec645cadf58244142fa077') in 0.010570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Assets/TILES/CaveCollision/cavedetails_7.asset
+  artifactKey: Guid(57d3b1ebaf2574ac89bfed3ded970ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/CaveCollision/cavedetails_7.asset using Guid(57d3b1ebaf2574ac89bfed3ded970ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a842657b43e67ced23c5a5dcb883b57') in 0.011678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Assets/TILES/CaveCollision/cavedetails_9.asset
+  artifactKey: Guid(af43c8a61722e4b10b946d44fda61d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/CaveCollision/cavedetails_9.asset using Guid(af43c8a61722e4b10b946d44fda61d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b09a42f194429fffe837ef075c18ac') in 0.009580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Assets/TILES/CaveCollision/cavedetails_4.asset
+  artifactKey: Guid(ba657b3b3dd5644038486af8b14dafcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/CaveCollision/cavedetails_4.asset using Guid(ba657b3b3dd5644038486af8b14dafcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba1f62f8c2de4297736e6c80bc30ddd') in 0.014450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Assets/TILES/CaveCollision/cavedetails_11.asset
+  artifactKey: Guid(057e626532ac040cfbc05d7ef9716972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/CaveCollision/cavedetails_11.asset using Guid(057e626532ac040cfbc05d7ef9716972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f5520fe282754c9cb9fff390a7f141') in 0.017702 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

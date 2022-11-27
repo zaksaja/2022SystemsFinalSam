@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61154
+61473
 Successfully changed project path to: /Users/samanthazak/2022SystemsFinalSam/TheDescender
 /Users/samanthazak/2022SystemsFinalSam/TheDescender
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/samanthazak/2022SystemsFinalSam/The
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 147.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 206.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -70,94 +70,94 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56174
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001307 seconds.
+Registered in 0.002197 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 135.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 228.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.820 seconds
+- Completed reload, in  1.296 seconds
 Domain Reload Profiling:
-	ReloadAssembly (820ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (1297ms)
+		BeginReloadAssembly (159ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (586ms)
-			LoadAssemblies (105ms)
+		EndReloadAssembly (942ms)
+			LoadAssemblies (161ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (135ms)
+			SetupTypeCache (206ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (357ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (590ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (135ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (163ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				RefreshPlugins (229ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011935 seconds.
+Registered in 0.010056 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/samanthazak/2022SystemsFinalSam/TheDescender/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image /Users/samanthazak/2022SystemsFinalSam/TheDescender/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 137.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 364.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  2.766 seconds
+- Completed reload, in  4.053 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2767ms)
-		BeginReloadAssembly (543ms)
+	ReloadAssembly (4055ms)
+		BeginReloadAssembly (578ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (2065ms)
-			LoadAssemblies (1109ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (3262ms)
+			LoadAssemblies (1075ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (384ms)
+			SetupTypeCache (571ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (88ms)
-			SetupLoadedEditorAssemblies (840ms)
+			RebuildScriptCaches (243ms)
+			SetupLoadedEditorAssemblies (1636ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (137ms)
-				BeforeProcessingInitializeOnLoad (141ms)
-				ProcessInitializeOnLoadAttributes (328ms)
-				ProcessInitializeOnLoadMethodAttributes (228ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (365ms)
+				BeforeProcessingInitializeOnLoad (344ms)
+				ProcessInitializeOnLoadAttributes (553ms)
+				ProcessInitializeOnLoadMethodAttributes (365ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6076 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 79 unused Assets / (462.0 KB). Loaded Objects now: 6494.
-Memory consumption went from 357.5 MB to 357.0 MB.
-Total: 8.990298 ms (FindLiveObjects: 0.540072 ms CreateObjectMapping: 0.584921 ms MarkObjects: 7.506291 ms  DeleteObjects: 0.358047 ms)
+Memory consumption went from 357.5 MB to 357.1 MB.
+Total: 12.674456 ms (FindLiveObjects: 0.692838 ms CreateObjectMapping: 0.719606 ms MarkObjects: 10.714870 ms  DeleteObjects: 0.545631 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,64 +171,154 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 346981.297342 seconds.
-  path: Assets/Assets/TILES/Cave/floorcave_0.asset
-  artifactKey: Guid(ffe3e42ea808e433cb1ff33a9f9d9177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/TILES/Cave/floorcave_0.asset using Guid(ffe3e42ea808e433cb1ff33a9f9d9177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbddc7fe2e072f1966e5d83fddb2af2') in 0.212571 seconds 
+  Time since last request: 351215.515404 seconds.
+  path: Assets/Assets/TILES/CaveCollision/sidescavemoss_0.asset
+  artifactKey: Guid(011ee3a5707984884b32802d5d7861ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/CaveCollision/sidescavemoss_0.asset using Guid(011ee3a5707984884b32802d5d7861ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7c11ea194c8c15830b135a518a9b4e') in 1.069191 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2544.028602 seconds.
-  path: Assets/Assets/TILES/Cave/floorcave.asset
-  artifactKey: Guid(77f54cb2666fe48e0ae2408609207192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/TILES/Cave/floorcave.asset using Guid(77f54cb2666fe48e0ae2408609207192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1157797830bb27ee2dc03d06f597d4e3') in 0.020233 seconds 
+  Time since last request: 0.000110 seconds.
+  path: Assets/Assets/TILES/CaveCollision/sidescavemoss_1.asset
+  artifactKey: Guid(895342b0797ad45659860dcbac523295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/CaveCollision/sidescavemoss_1.asset using Guid(895342b0797ad45659860dcbac523295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86ee5166a1345ed81e54bc39e58a8e3') in 0.016151 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.615268 seconds.
-  path: Assets/Assets/TILES/Cave/CaveFloor.prefab
-  artifactKey: Guid(9057f4e79b91d4626bccc4b074927bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/TILES/Cave/CaveFloor.prefab using Guid(9057f4e79b91d4626bccc4b074927bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb81fd6e9a345cfbf13cfe13cfcd38d') in 0.423007 seconds 
+  Time since last request: 0.000110 seconds.
+  path: Assets/Assets/TILES/CaveCollision/sidescavemoss_4.asset
+  artifactKey: Guid(df415d8fbcd7442c7a308f56f6dd266f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/CaveCollision/sidescavemoss_4.asset using Guid(df415d8fbcd7442c7a308f56f6dd266f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4d1773d89455650c1c9146ed6a7fc2') in 0.017654 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 139.947153 seconds.
-  path: Assets/Assets/TILES/CaveCollision/cavedetails_1.asset
-  artifactKey: Guid(c706f28ee542d42bfa57893c9c9e1e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/TILES/CaveCollision/cavedetails_1.asset using Guid(c706f28ee542d42bfa57893c9c9e1e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f913de2ca26ef376f27aaf2e77cd5ed5') in 0.012151 seconds 
+  Time since last request: 0.000111 seconds.
+  path: Assets/Assets/TILES/CaveCollision/sidescavemoss_5.asset
+  artifactKey: Guid(4a5a6ec0ddcd1453ca9429585f3fd9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/CaveCollision/sidescavemoss_5.asset using Guid(4a5a6ec0ddcd1453ca9429585f3fd9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd44c6629a4187d0065c32032e2d5d12') in 0.010596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Assets/TILES/CaveCollision/sidescavemoss_6.asset
+  artifactKey: Guid(2b41d2af58310405a8711d471be8c93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/CaveCollision/sidescavemoss_6.asset using Guid(2b41d2af58310405a8711d471be8c93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1cc89af2c3ea3c0f9890c745cba61c') in 0.010172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Assets/TILES/CaveCollision/sidescavemoss_2.asset
+  artifactKey: Guid(1d840d90a599642b59f6039e861d1f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/CaveCollision/sidescavemoss_2.asset using Guid(1d840d90a599642b59f6039e861d1f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6813b03a1d894e253e54bd100508a003') in 0.012334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Assets/TILES/CaveCollision/sidescavemoss_8.asset
+  artifactKey: Guid(e295c6b448beb49cd920dcbb67bc6a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/CaveCollision/sidescavemoss_8.asset using Guid(e295c6b448beb49cd920dcbb67bc6a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b277f09135e7901955b151b75b1dea2b') in 0.011248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Assets/TILES/CaveCollision/sidescavemoss_3.asset
+  artifactKey: Guid(e4c66dd3029084bbbbe83094284dbd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/CaveCollision/sidescavemoss_3.asset using Guid(e4c66dd3029084bbbbe83094284dbd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9d0d43a9fd0e65ce79c263a3fed634') in 0.010330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 595.608850 seconds.
+  path: Assets/Assets/TILES/CaveCollision/ballmosscave_1.asset
+  artifactKey: Guid(1c27042cb4eee4f0f84eccb179d587b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/CaveCollision/ballmosscave_1.asset using Guid(1c27042cb4eee4f0f84eccb179d587b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386a6b9cf88054d373e03b0aead4b3a6') in 0.012520 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000083 seconds.
-  path: Assets/Assets/TILES/CaveCollision/cavedetails_10.asset
-  artifactKey: Guid(824bf0d8e466d42b5874bdfda2d9f061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/TILES/CaveCollision/cavedetails_10.asset using Guid(824bf0d8e466d42b5874bdfda2d9f061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81af5f27226bdf0cdc7fd4684941354b') in 0.013133 seconds 
+  path: Assets/Assets/TILES/CaveCollision/ballmosscave_3.asset
+  artifactKey: Guid(0107ebefef042447288f63c839a15cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/CaveCollision/ballmosscave_3.asset using Guid(0107ebefef042447288f63c839a15cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d4ca01cbc158915e595a235b208f02') in 0.010715 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Assets/TILES/CaveCollision/cavedetails_8.asset
-  artifactKey: Guid(e6e7079798fa54c0486aa05bec0152b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/TILES/CaveCollision/cavedetails_8.asset using Guid(e6e7079798fa54c0486aa05bec0152b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0354f3faec645cadf58244142fa077') in 0.010570 seconds 
+  Time since last request: 0.000068 seconds.
+  path: Assets/Assets/TILES/CaveCollision/Cavewallsfunky.prefab
+  artifactKey: Guid(4b4ff51d3f42845d0921644ce61cf0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/CaveCollision/Cavewallsfunky.prefab using Guid(4b4ff51d3f42845d0921644ce61cf0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15eed3437d3ac9f4617f1a3fbce33940') in 0.447603 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Assets/TILES/CaveCollision/cavedetails_7.asset
-  artifactKey: Guid(57d3b1ebaf2574ac89bfed3ded970ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/TILES/CaveCollision/cavedetails_7.asset using Guid(57d3b1ebaf2574ac89bfed3ded970ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a842657b43e67ced23c5a5dcb883b57') in 0.011678 seconds 
+  Time since last request: 170.639678 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b046de644c39314ee75d3e1f8404e99') in 0.002890 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/Assets/TILES/CaveCollision/cavedetails_9.asset
-  artifactKey: Guid(af43c8a61722e4b10b946d44fda61d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/TILES/CaveCollision/cavedetails_9.asset using Guid(af43c8a61722e4b10b946d44fda61d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b09a42f194429fffe837ef075c18ac') in 0.009580 seconds 
+  Time since last request: 292.167980 seconds.
+  path: Assets/Assets/TILES/CaveFloor
+  artifactKey: Guid(8c567956d94b343368b631b93fcc84bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/CaveFloor using Guid(8c567956d94b343368b631b93fcc84bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d9e39120eeac82fb541a1f0826cad2') in 0.001283 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Assets/TILES/CaveCollision/cavedetails_4.asset
-  artifactKey: Guid(ba657b3b3dd5644038486af8b14dafcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/TILES/CaveCollision/cavedetails_4.asset using Guid(ba657b3b3dd5644038486af8b14dafcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba1f62f8c2de4297736e6c80bc30ddd') in 0.014450 seconds 
+  Time since last request: 2.599975 seconds.
+  path: Assets/Assets/Palettes/GroundTiles.prefab
+  artifactKey: Guid(8deb25ca9036d4500ab45378217b9346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Palettes/GroundTiles.prefab using Guid(8deb25ca9036d4500ab45378217b9346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4846a985f077254c8c5c2ba6d9d46ef3') in 0.042759 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Assets/TILES/CaveCollision/cavedetails_11.asset
-  artifactKey: Guid(057e626532ac040cfbc05d7ef9716972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/TILES/CaveCollision/cavedetails_11.asset using Guid(057e626532ac040cfbc05d7ef9716972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f5520fe282754c9cb9fff390a7f141') in 0.017702 seconds 
+  Time since last request: 40.774441 seconds.
+  path: Assets/Assets/TILES/Forest
+  artifactKey: Guid(4d5ace8f39a3946599ddbe30199b264a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/Forest using Guid(4d5ace8f39a3946599ddbe30199b264a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064a8be5fb901aaaf51b92d56fd418ec') in 0.002734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.222563 seconds.
+  path: Assets/Assets/TILES/Forest/tilesofficialni.png
+  artifactKey: Guid(57e03afd82534485fb8979b23c9fede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/Forest/tilesofficialni.png using Guid(57e03afd82534485fb8979b23c9fede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a153167b5f601928cfe2c83cbe0f5712') in 1.292319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.487047 seconds.
+  path: Assets/Assets/TILES/Forest/tilesofficialni.png
+  artifactKey: Guid(57e03afd82534485fb8979b23c9fede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/Forest/tilesofficialni.png using Guid(57e03afd82534485fb8979b23c9fede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacf19d0ca6d97454f2bb3250caca786') in 0.020525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.437754 seconds.
+  path: Assets/Assets/TILES/Forest/tilesofficialni.png
+  artifactKey: Guid(57e03afd82534485fb8979b23c9fede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/Forest/tilesofficialni.png using Guid(57e03afd82534485fb8979b23c9fede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fd113fd2c26f44050658d99846805a') in 0.125644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.740330 seconds.
+  path: Assets/Assets/TILES/BigTrees/Cave_0.asset
+  artifactKey: Guid(ee4cc862ba664449cb525e5d00fdd2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/BigTrees/Cave_0.asset using Guid(ee4cc862ba664449cb525e5d00fdd2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df50af521a726414f4b772fcf61ad64f') in 0.011285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Assets/TILES/BigTrees/Cave_3.asset
+  artifactKey: Guid(9d3f93d6e2c9c4e669b3d1326ca238ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/BigTrees/Cave_3.asset using Guid(9d3f93d6e2c9c4e669b3d1326ca238ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a63ae023900a47587e0813d081dfca') in 0.014284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Assets/TILES/BigTrees/Cave_5.asset
+  artifactKey: Guid(8bf0561c10d214c6dadbe02da5685978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/BigTrees/Cave_5.asset using Guid(8bf0561c10d214c6dadbe02da5685978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22afaa21c5ddd579d4bdddbb4197c63e') in 0.011268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Assets/TILES/BigTrees/Cave_6.asset
+  artifactKey: Guid(6a488bf080eeb4f4b809ce7f81449fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/BigTrees/Cave_6.asset using Guid(6a488bf080eeb4f4b809ce7f81449fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c84eed3b961f0fcb4bb425e35e9e92') in 0.010960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Assets/TILES/BigTrees/Cave_2.asset
+  artifactKey: Guid(ce10df93352a2413092a1b9c3f80c281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/BigTrees/Cave_2.asset using Guid(ce10df93352a2413092a1b9c3f80c281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28edb7b58ddb285e84f2fe547291d84') in 0.017273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Assets/TILES/BigTrees/Cave_7.asset
+  artifactKey: Guid(b19cb1f654d844cf0bb29dcdcc8a516e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/BigTrees/Cave_7.asset using Guid(b19cb1f654d844cf0bb29dcdcc8a516e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82410786366d8c1a3438fe535e6d51e') in 0.011592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Assets/TILES/BigTrees/Cave_4.asset
+  artifactKey: Guid(a699871b7b600476a9fb4c26af70108f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TILES/BigTrees/Cave_4.asset using Guid(a699871b7b600476a9fb4c26af70108f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae7496e65419e63a3a6e1452639b487') in 0.012172 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

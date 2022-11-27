@@ -51,6 +51,9 @@ TagManager:
   - name: CollisionLayer
     uniqueID: 1376971485
     locked: 0
+  - name: TopCollision
+    uniqueID: 949832101
+    locked: 0
   - name: ' Player'
     uniqueID: 726476331
     locked: 0
